@@ -108,7 +108,7 @@ const timerInterval = setInterval(function() {
     // Функція виходу
     function logout() {
         sessionStorage.clear();
-        window.location.href = 'kazinak.html';
+        window.location.href = 'login.html';
     }
 
 const isLoggedIn = sessionStorage.getItem('isLoggedIn');
