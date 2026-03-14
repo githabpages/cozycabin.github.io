@@ -1,10 +1,3 @@
-    // Ініціалізація сніжинок
-    var snowflakes = new Snowflakes({
-        color: '#ffffff',
-        count: 50,
-        minOpacity: 0.2,
-        maxOpacity: 0.6
-    });
 
     // Функція відкриття інструкції (ОБОВ'ЯЗКОВО В ТЕГУ SCRIPT)
     function toggleInstall() {
@@ -68,7 +61,7 @@ function closeGlitch() {
 }
 
 // Вкажи тут дату події у форматі: "Month Day, Year Hours:Minutes:Seconds"
-const targetDate = new Date("March 8, 2026 00:00:00").getTime();
+const targetDate = new Date("May 8, 2026 00:00:00").getTime();
 
 const timerInterval = setInterval(function() {
     const now = new Date().getTime();
