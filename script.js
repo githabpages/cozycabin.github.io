@@ -128,7 +128,7 @@ const isLoggedIn = sessionStorage.getItem('isLoggedIn');
         const avatarElement = document.getElementById('user-avatar');
         if (avatarElement) {
             // Використовуємо нік як "seed" (зерно) для генерації унікального піксельного обличчя
-           avatarElement.src = `avatars/${userNameFromStorage}.jpg`;
+           avatarElement.src = `${userNameFromStorage}.jpg`;
         }
     }
 
